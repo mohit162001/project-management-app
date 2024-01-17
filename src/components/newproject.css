@@ -1,0 +1,40 @@
+.project-container{  
+    width: 35rem; /* w-[35rem] */
+    margin-top: 4rem; /* mt-16 */
+}
+
+
+/* Equivalent CSS for Tailwind CSS classes */
+menu {
+    display: flex; /* flex */
+    align-items: center; /* items-center */
+    justify-content: flex-end; /* justify-end */
+    gap: 1rem; /* gap-4 */
+    margin-top: 1rem; /* my-4 */
+  }
+/* Equivalent CSS for Tailwind CSS classes */
+#cancle-btn{
+    color: #604c38; /* text-stone-800 */
+  }
+  
+#cancle-btn:hover {
+    color: #a28869; /* hover:text-stone-950 */
+  }
+    
+#save-btn{
+    /* Equivalent CSS for Tailwind CSS classes */
+
+    padding-left: 1.5rem; /* px-6 */
+    padding-right: 1.5rem; /* px-6 */
+    padding-top: 0.5rem; /* py-2 */
+    padding-bottom: 0.5rem; /* py-2 */
+    border-radius: 0.375rem; /* rounded-md */
+    background-color: #2a2a2a; /* bg-stone-800 */
+    color: #f1f1f1; /* text-stone-50 */
+    cursor: pointer;
+  }
+  
+#save-btn:hover {
+    background-color: #171717; /* hover:bg-stone-950 */
+  }
+  
