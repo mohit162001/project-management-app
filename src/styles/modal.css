@@ -1,0 +1,32 @@
+#modal-back{
+  backdrop-filter: blur(10px); /* backdrop:bg-stone-900/90 */
+  background-color: rgba(42, 42, 42, 0.9); /* Equivalent to the backdrop:bg-stone-900/90 color with 90% opacity */
+  }
+.modal-container{
+
+    backdrop-filter: blur(10px); /* backdrop:bg-stone-900/90 */
+    background-color: rgba(42, 42, 42, 0.9); /* Equivalent to the backdrop:bg-stone-900/90 color with 90% opacity */
+    padding: 1rem; /* p-4 */
+    border-radius: 0.375rem; /* rounded-md */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+}
+
+#modal-h2 {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: bold; /* font-bold */
+    color: #c7c4bc; /* text-stone-500 */
+    margin-top: 1rem; /* my-4 */
+    margin-bottom: 1rem; /* my-4 */
+  }
+/* Equivalent CSS for Tailwind CSS classes */
+#modal-p1 {
+    color: #787878; /* text-stone-400 */
+    margin-bottom: 1rem; /* mb-4 */
+  }
+#modal-p2{
+    margin-top: 2rem;
+}
+
+form{
+    text-align: right;
+}
