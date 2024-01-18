@@ -6,11 +6,11 @@
 body{
     background: rgba(216, 216, 216, 0.705);
 }
-/* Equivalent CSS for Tailwind CSS classes */
+
 main {
-    height: 100vh; /* h-screen */
-    margin-top: 2rem; /* my-8 */
-    margin-bottom: 2rem; /* my-8 */
-    display: flex; /* flex */
-    gap: 2rem; /* gap-8 */
+    height: 100vh; 
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
+    display: flex; 
+    gap: 2rem; 
   }

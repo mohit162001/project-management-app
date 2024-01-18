@@ -1,49 +1,49 @@
-/* Equivalent CSS for Tailwind CSS classes */
 .noproject-container {
-    margin-top: 6rem; /* mt-24 */
-    text-align: center; /* text-center */
-    width: 66.6667%; /* w-2/3 */
-  }
-/* Equivalent CSS for Tailwind CSS classes */
-img {
-    width: 7rem; /* w-16 */
-    height: 7rem; /* h-16 */
-    object-fit: contain; /* object-contain */
-    margin-left: auto; /* mx-auto */
-    margin-right: auto; /* mx-auto */
-  }
-/* Equivalent CSS for Tailwind CSS classes */
-#noproject-h2 {
-    font-size: 1.25rem; /* text-xl */
-    font-weight: bold; /* font-bold */
-    color: #c7c4bc; /* text-stone-500 */
-    margin-top: 1rem; /* my-4 */
-    margin-bottom: 1rem; /* my-4 */
-  }
-/* Equivalent CSS for Tailwind CSS classes */
-#noproject-p1 {
-    color: #787878; /* text-stone-400 */
-    margin-bottom: 1rem; /* mb-4 */
-  }
-#noproject-p2{
-    margin-top: 2rem;
+  margin-top: 6rem;
+  text-align: center;
+  width: 66.6667%;
 }
 
-#create-btn{
-    width: 100%; /* w-full */
-    text-align: left; /* text-left */
-    padding-left: 0.5rem; /* px-2 */
-    padding-right: 0.5rem; /* px-2 */
-    padding-top: 0.25rem; /* py-1 */
-    padding-bottom: 0.25rem; /* py-1 */
-    border-radius: 0.125rem; /* rounded-sm */
-    margin-top: 0.25rem; /* my-1 */
-    margin-bottom: 0.25rem; /* my-1 */
-    cursor: pointer;
-    outline: none;
-    transition: color 0.3s, background-color 0.3s;
-  }
-  
-  #create-btn:hover {
-    background-color: #d6d6d6; /* hover:bg-stone-800 */
-  }
+img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#noproject-h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #c7c4bc;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#noproject-p1 {
+  color: #787878;
+  margin-bottom: 1rem;
+}
+
+#noproject-p2 {
+  margin-top: 2rem;
+}
+
+#create-btn {
+  width: 100%;
+  text-align: left;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.125rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+#create-btn:hover {
+  background-color: #d6d6d6;
+}

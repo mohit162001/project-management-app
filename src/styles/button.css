@@ -1,16 +1,16 @@
 .btn{
-    padding-left: 1rem; /* px-4 */
-    padding-right: 1rem; /* px-4 */
-    padding-top: 0.5rem; /* py-2 */
-    padding-bottom: 0.5rem; /* py-2 */
-    font-size: 0.75rem; /* text-xs */
-    border-radius: 0.375rem; /* rounded-md */
-    background-color: #47505e; /* bg-stone-700 */
-    color: #dfe5eb; /* text-stone-400 */
+    padding-left: 1rem; 
+    padding-right: 1rem; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    font-size: 0.75rem; 
+    border-radius: 0.375rem; 
+    background-color: #47505e; 
+    color: #dfe5eb;
     transition: 0.5s;
   }
   
 .btn:hover {
-    background-color: #9f9fa0; /* hover:bg-stone-600 */
-    color: #070707; /* hover:text-stone-100 */
+    background-color: #9f9fa0;
+    color: #070707;
   }
