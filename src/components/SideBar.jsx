@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/sidebar.css'
 import Button from './Button';
-function SideBar({handleSelectedProject,projects}) {
+function SideBar({handleSelectedProject,projects,handleProjectDisplay}) {
   return (
     <aside>
         <h2>Your Projects</h2>
@@ -10,7 +10,7 @@ function SideBar({handleSelectedProject,projects}) {
         </div>
         <ul>{projects.map((project)=>{
           return <li key={project.id}>
-            <button className='project-btn'>{project.title}</button>
+            <button onClick={()=>handleProjectDisplay(project.id)} className='project-btn'>{project.title}</button>
           </li>
         })}</ul>
     </aside>
