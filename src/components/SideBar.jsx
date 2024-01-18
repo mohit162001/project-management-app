@@ -1,14 +1,18 @@
 import React from 'react'
 import '../styles/sidebar.css'
 import Button from './Button';
-function SideBar({handleSelectedProject}) {
+function SideBar({handleSelectedProject,projects}) {
   return (
     <aside>
         <h2>Your Projects</h2>
         <div>
             <Button onClick={handleSelectedProject}>Add Project</Button>
         </div>
-        <ul></ul>
+        <ul>{projects.map((project)=>{
+          return <li key={project.id}>
+            <button className='project-btn'>{project.title}</button>
+          </li>
+        })}</ul>
     </aside>
   )
 }

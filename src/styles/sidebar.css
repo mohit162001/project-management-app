@@ -19,6 +19,27 @@ h2 {
     font-size: 1.25rem; /* md:text-xl */
     color: #f3f3f3; /* text-stone-200 */
   }
+ul{
+  margin-top: 2rem;
+}
+/* Equivalent CSS for Tailwind CSS button */
+.project-btn {
+  width: 100%;
+  text-transform: capitalize;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  border-radius: 0.125rem; /* Corresponds to rounded-sm in Tailwind */
+  margin: 0.25rem 0;
+  color: inherit; /* Assumes the text color is inherited */
+  background-color: transparent; 
+  transition: 0.5s;
+}
+
+.project-btn:hover {
+  color: #ccc; /* Corresponds to hover:text-stone-200 in Tailwind */
+  background-color: #2c3e50; /* Corresponds to hover:bg-stone-800 in Tailwind */
+}
+
   /* Equivalent CSS for Tailwind CSS classes */
   @media (min-width: 768px) {
     button {
