@@ -1,5 +1,5 @@
 import React from 'react'
-import './input.css'
+import '../styles/input.css'
 import { forwardRef } from 'react'
 
 const input = forwardRef(function Input({label,textarea,...props},ref) {

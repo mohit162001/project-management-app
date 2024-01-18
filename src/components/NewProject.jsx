@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import Input from '../components/Input.jsx';
-import './newproject.css'
+import '../styles/newproject.css'
 function NewProject({handleAddProject}) {
 
   const title = useRef();

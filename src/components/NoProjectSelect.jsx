@@ -1,5 +1,5 @@
 import React from 'react'
-import './noprojectselected.css'
+import '../styles/noprojectselected.css'
 import Button from './Button'
 import noproject_img from './assets/project_icon.png'
 function NoProjectSelect({handleSelectedProject}) {
