@@ -1,16 +1,24 @@
 import React, { useRef } from 'react'
 import Input from '../components/Input.jsx';
 import '../styles/newproject.css'
-function NewProject({handleAddProject}) {
+import Modal from './Modal.jsx';
+function NewProject({handleAddProject, handleCancle}) {
 
+  const modal = useRef();
   const title = useRef();
   const description = useRef();
-  const dueDate = useRef(); 
+  const dueDate = useRef();
+
   
   function onSave(){
     const enteredTitle = title.current.value;
     const enteredDescription = description.current.value;
     const enteredDueDate = dueDate.current.value;
+  
+    if(enteredTitle===''||enteredDescription===''||enteredDueDate===''){
+       modal.current.open();
+       return;
+    }
 
     const project ={
       title:enteredTitle,
@@ -22,9 +30,14 @@ function NewProject({handleAddProject}) {
   
 
   return (
+    <>
+    <Modal ref={modal} buttonCaption={'Okay'}>
+      <h2 id='modal-h2'>Ivaild Input</h2>
+      <p id='modal-p1'>Please provide every input field</p>
+    </Modal>
     <div className='project-container'>
         <menu>
-            <li><button id='cancle-btn'>Cancle</button></li>
+            <li><button onClick={handleCancle} id='cancle-btn'>Cancle</button></li>
             <li><button onClick={onSave} id='save-btn'>Save</button></li>
         </menu>
         <div>
@@ -33,6 +46,7 @@ function NewProject({handleAddProject}) {
          <Input type='date' ref={dueDate} label='Due Date'/>
         </div>
     </div>
+    </>
   )
 }
 
